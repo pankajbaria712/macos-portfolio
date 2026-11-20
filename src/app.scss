@@ -2,10 +2,27 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    height: 100%;
+    width: 100%;
 }
 
-html, body {
+html, 
+body 
+#root {
+    height: 100%;
+    width: 100%;
     font-family: 'Inter', sans-serif;
-    background-color: #0f0f0f;
+   
     color: #fff;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+
+    background-image: url('./mac-wallpaper.jpg');
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
